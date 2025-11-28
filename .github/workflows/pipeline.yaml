@@ -43,7 +43,7 @@ jobs:
           # trigger the tests here
           echo 'Running unit tests...'
           cd hello-world
-          npm test
+          npm install
           npm run test
 
   delete-feature:
